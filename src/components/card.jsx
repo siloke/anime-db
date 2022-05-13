@@ -1,6 +1,6 @@
 function Card({ cardInfo }) {
   return (
-    <div className="col-md-6 col-lg-4 mb-3">
+    <div className="col-md-12 col-lg-6 mb-3">
       <div className="card h-100">
         <div className="row g-0 h-100">
           <div className="col-md-4">

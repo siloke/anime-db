@@ -6,7 +6,7 @@ import Card from './components/card'
 function App() {
   const [apiData, setApiData] = useState([]);
   const [pageNumber, setPageNumber] = useState(1);
-  const [animePerPage, setAnimePerPage] = useState(9)
+  const [animePerPage, setAnimePerPage] = useState(6)
 
   //Fetch API
   useEffect(() => {
